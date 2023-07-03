@@ -14,12 +14,12 @@ caslib _all_ assign ;
 
 /*Lister les tables en mémoire*/ 
 proc casutil incaslib="CASUSER";
-   list tables;
+	list tables;
 run;
 
 /*Lister les tables disponibles*/ 
 proc casutil incaslib="CASUSER";
-   list files;
+	list files;
 run;
 
 /*Chargement d'une table*/ 
